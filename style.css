@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(3, 49, 49);
+}
+.container{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    align-content: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 10px;
+}
+input{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    opacity: 20%;
+}
+#username{
+    width: 200px;
+}
+#password{
+    width: 200px;
+}
+.checkbox{
+    font-size: small;
+    color: white;
+}
+a{
+    color: green;
+    margin-left: 25px;
+    text-decoration: none;
+}
+#signin-form{
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    width: 220px;
+    color: white;
+}
